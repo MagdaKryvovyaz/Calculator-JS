@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+   width: 100%;
+   text-align: center;
+}
+
+
+.calculator {
+    border-radius: 10px;
+    border: none;
+    max-width: 350px;
+    width: 100%;
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.panel {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+}
+
+
+.operation button{
+    font-size: 20px;
+    width: 67px;
+    height: 50px;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+
+.panel button{
+    font-size: 20px;
+    margin: 3px;
+    padding: 5px;
+    width: 70px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.equal > button {
+    height: 98%;
+    border-radius: 10px;
+}
+
+.display {
+    width: auto;
+    margin: 10px;
+    border-radius: 0%; 
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+#input{
+    width: 100%;
+    padding: 10px;
+    text-align: end;
+    font-size: 25px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+}
